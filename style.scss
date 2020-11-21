@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.first {
+    width: 1150px;
+    
+    margin: 0 auto;
+    padding-top: 30px; 
+}
+
+h1, p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.big {
+    text-align: center;
+    font-size: 2em;
+    color: red;
+}
+
+.show1, .show2, .show3 {
+    display: none;
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1150px;
+}
+
+.div_item {
+    width: 87px;
+    height: 100px;
+    background-color: blue;
+    outline: 1px solid black;
+    color: seashell;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.p_cart {
+    text-align: left;
+    margin-top: 7px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
